@@ -5,10 +5,16 @@ ul{
     font-family: arial;
     color: #7c79a3
 }
-#nav-image{
+#header{
     display: flex;
     justify-content: center;
-    width; 100%;
+    margin-top: 0px;
+    width: 100%;
+    background-image: url(Images/Nav/bluecover.jpg);
+    height: 1000px;
+}
+#headerlogo{
+    align-self: center;
 }
 
 
