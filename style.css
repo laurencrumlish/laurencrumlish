@@ -39,6 +39,7 @@ li{
 
 }
 #artwork {
+    margin-left: 30px;
     margin-top: 10px;
     width:95%;
     border: solid #7c79a3;
@@ -64,6 +65,7 @@ li{
     align-items: center;
 }
 #contactme {
+    margin-left: 30px;
     margin-top: 10px;
     width:95%;
     border: solid #7c79a3;
