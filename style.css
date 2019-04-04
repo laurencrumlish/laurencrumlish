@@ -1,14 +1,12 @@
 body{
     margin: 0px;
 }
-
-#header-list {
+ul {
     display:flex;
     justify-content: space-around;
     width: 100%;
     font-family: arial;
     color: #7c79a3;
-    flex-direction: column;
 }
 #header{
     display: flex;
@@ -27,6 +25,7 @@ li{
     list-style-type: none;
 }
 #profile {
+    margin-left: 30px;
     margin-top: 100px;
     width:95%;
     border: solid #7c79a3;
