@@ -6,15 +6,21 @@ ul {
     justify-content: space-around;
     width: 100%;
     font-family: arial;
-    color: #7c79a3;
+    color: #84aaff;
 }
 #header{
     display: flex;
     justify-content: center;
     margin-top: 0px;
     width: 100%;
-    background-image: url(Images/Nav/bluecover.jpg);
     height: 1000px;
+    background-repeat: no-repeat;
+    background: url(Images/Nav/blueandyellowcover.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 #headerlogo{
     align-self: center;
@@ -25,29 +31,37 @@ li{
     list-style-type: none;
 }
 #profile {
-    margin-left: 30px;
-    margin-top: 100px;
+    margin-left: 45px;
+    margin-top: 10px;
     width:95%;
-    border: solid #7c79a3;
-    height: 1000px;
+    border: solid #84aaff;
+    height: 800px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     font-family: arial;
-    color: #7c79a3;
-
+    color: #84aaff;
 }
 #artwork {
-    margin-left: 30px;
+    margin-left: 45px;
     margin-top: 10px;
     width:95%;
-    border: solid #7c79a3;
-    height: 500px;
+    border: solid #84aaff;
+    height: 800px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-family: arial;
-    color: #7c79a3
+    color: #84aaff;
+}
+#artwork-body {
+    display: flex;
+    align-items: center;
+}
+#artwork-ABI {
+    height: 500px;
 }
 #profile-image{
     width: 671px;
@@ -59,20 +73,31 @@ li{
     font-family: baskerville;
     width: 40%;
     height; 250px;
+    font-size: 25px;
 }
 #profile-body{
     display: flex;
     align-items: center;
 }
+
 #contactme {
-    margin-left: 30px;
+    margin-left: 45px;
     margin-top: 10px;
     width:95%;
-    border: solid #7c79a3;
-    height: 500px;
+    border: solid #84aaff;
+    height: 800px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-family: arial;
-    color: #7c79a3
+    color: #84aaff;
 }
+#contactme-para {
+    font-family: baskerville;
+    width: 40%;
+    height; 250px;
+    font-size: 25px;
+}
+
 
