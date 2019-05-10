@@ -54,6 +54,12 @@ li{
     align-self: center;
     list-style-type: none;
     text-decoration: none;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 1.2s;
+    animation-name: fadeIn;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
 
 }
 a {
@@ -79,7 +85,7 @@ a {
     margin-top: 10px;
     width:95%;
     border: solid #84aaff;
-    height: 4820px;
+    height: 5550px;
     display: flex;
 /*    justify-content: center;*/
     flex-direction: column;
@@ -92,6 +98,7 @@ a {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+/*
     animation-delay: 0s;
     animation-direction: alternate;
     animation-duration: 1.2s;
@@ -100,6 +107,7 @@ a {
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
     animation-name: moveRight;
+*/
 
 }
 #artwork-ABI {
