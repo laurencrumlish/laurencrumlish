@@ -1,33 +1,34 @@
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes moveRight {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100px);
-  }
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
 }
 
-
-body{
+body {
     margin: 0px;
 }
+
 ul {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     width: 100%;
     font-family: arial;
     color: #84aaff;
 }
-#header{
+
+#header {
     display: flex;
     justify-content: center;
     margin-top: 0px;
@@ -35,12 +36,13 @@ ul {
     height: 1000px;
     background-repeat: no-repeat;
     background: url(Images/Nav/blueandyellowcover.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-#headerlogo{
+
+#headerlogo {
     align-self: center;
     animation-delay: 0s;
     animation-direction: normal;
@@ -50,7 +52,7 @@ ul {
     animation-timing-function: ease-in;
 }
 
-li{
+li {
     align-self: center;
     list-style-type: none;
     text-decoration: none;
@@ -60,16 +62,17 @@ li{
     animation-name: fadeIn;
     animation-play-state: running;
     animation-timing-function: ease-in;
-
 }
+
 a {
     text-decoration: none;
     color: #84aaff
 }
+
 #profile {
     margin-left: 45px;
     margin-top: 10px;
-    width:95%;
+    width: 95%;
     border: solid #84aaff;
     height: 600px;
     display: flex;
@@ -78,27 +81,33 @@ a {
     align-items: center;
     font-family: arial;
     color: #84aaff;
-
 }
+
+#profile-body {
+    display: flex;
+    flex-direction: row;
+}
+
 #artwork {
     margin-left: 45px;
     margin-top: 10px;
-    width:95%;
+    width: 95%;
     border: solid #84aaff;
     height: 5550px;
     display: flex;
-/*    justify-content: center;*/
+    /*    justify-content: center;*/
     flex-direction: column;
     align-items: center;
     font-family: arial;
     color: #84aaff;
 }
+
 #artwork-body {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-/*
+    /*
     animation-delay: 0s;
     animation-direction: alternate;
     animation-duration: 1.2s;
@@ -108,15 +117,15 @@ a {
     animation-iteration-count: infinite;
     animation-name: moveRight;
 */
-
 }
+
 #artwork-ABI {
-/*
+    /*
     margin-left: 45px;
     margin-top: 10px;
 */
-/*    width:95%;*/
-/*    height: 3000px;*/
+    /*    width:95%;*/
+    /*    height: 3000px;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -127,23 +136,27 @@ a {
 
 .image-space {
     margin-top: 20px;
-
 }
 
-#profile-image{
+#profile-image-container {
     width: 671px;
     height: 447px;
     border: solid 30px white;
 }
 
-#profile-para{
+#profile-image {
+    width: 671px;
+}
+
+#profile-para {
     font-family: baskerville;
     width: 40%;
-    height; 250px;
+    height;
+    250px;
     font-size: 25px;
-
 }
-#profile-body{
+
+#profile-body {
     display: flex;
     align-items: center;
 }
@@ -151,7 +164,7 @@ a {
 #contactme {
     margin-left: 45px;
     margin-top: 10px;
-    width:95%;
+    width: 95%;
     border: solid #84aaff;
     height: 300px;
     display: flex;
@@ -161,9 +174,76 @@ a {
     font-family: arial;
     color: #84aaff;
 }
+
 #contactme-para {
     font-family: baskerville;
     width: 40%;
-    height; 250px;
+    height;
+    250px;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        font-family: arial;
+        color: #84aaff;
+        font-size: 28px;
+    }
+    #header {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        width: 100%;
+        height: 700px;
+        background-repeat: no-repeat;
+        background: url(Images/Nav/blueandyellowcover.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #headerlogo {
+        align-self: center;
+        animation-delay: 0s;
+        animation-direction: normal;
+        animation-duration: 1.2s;
+        animation-name: fadeIn;
+        animation-play-state: running;
+        animation-timing-function: ease-in;
+        height: 150px;
+    }
+    #profile {
+        height: 100%;
+    }
+    #profile-image-container {
+        width: 300px;
+        height: 100%;
+    }
+    #profile-body {
+        flex-direction: column;
+    }
+    #profile-image {
+        width: 300px;
+    }
+    .image-space {
+    margin-top: 20px;
+    width: 250px;
+    height: 360px
+}
+    #artwork {
+    margin-left: 45px;
+    margin-top: 10px;
+    width: 95%;
+    border: solid #84aaff;
+    height: 2760px;
+    width: 90%
+    display: flex;
+    /*    justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    color: #84aaff;
 }
