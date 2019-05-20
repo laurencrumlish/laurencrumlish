@@ -224,6 +224,7 @@ a {
     }
     #profile-body {
         flex-direction: column;
+        font-size: 28px
     }
     #profile-image {
         width: 300px;
