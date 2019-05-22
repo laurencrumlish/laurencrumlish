@@ -219,8 +219,8 @@ a {
     }
     #profile {
         height: 1060px;
-        margin-left: 0px;
-        width: 370px;
+        margin-left: 5px;
+        width: 360px;
 
     }
     #profile-image-container {
@@ -242,7 +242,7 @@ a {
     height: 360px
 }
     #artwork {
-    margin-left: 0px;
+    margin-left: 5px;
     margin-right: 0px;
 /*    margin-left: 45px;*/
     margin-top: 10px;
@@ -254,10 +254,10 @@ a {
     align-items: center;
     font-family: arial;
     color: #84aaff;
-    width: 370px;
+    width: 360px;
 }
 #contactme {
-    margin-left: 0px;
+    margin-left: 5px;
     margin-top: 10px;
     border: solid #84aaff;
     height: 175px;
@@ -269,7 +269,8 @@ a {
 */
     font-family: arial;
     color: #84aaff;
-    width: 370px;
+    width: 360px;
+    margin-bottom: 10px;
     }
 
     #contactme-para {
