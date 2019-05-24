@@ -81,6 +81,7 @@ a {
     align-items: center;
     font-family: arial;
     color: #84aaff;
+    margin-right: 0px;
 }
 
 #profile-body {
@@ -100,6 +101,7 @@ a {
     align-items: center;
     font-family: arial;
     color: #84aaff;
+    margin-right: 0px;
 }
 
 #artwork-body {
@@ -173,6 +175,7 @@ a {
     align-items: center;
     font-family: arial;
     color: #84aaff;
+    margin-right: 0px;
 }
 
 #contactme-para {
@@ -225,7 +228,7 @@ a {
     }
     #profile-image-container {
         width: 250px;
-        height: 80%;
+        height: 100%;
 
     }
     #profile-body {
