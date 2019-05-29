@@ -69,19 +69,33 @@ a {
     color: #84aaff
 }
 
+/*
 #profile {
-    margin-left: 45px;
     margin-top: 10px;
     width: 95%;
     border: solid #84aaff;
-    height: 600px;
+    height: 1000px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     font-family: arial;
     color: #84aaff;
     margin-right: 0px;
+    height: 1060px;
+    margin-left: 5px;
+    width: 360px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+*/
+#profile {
+    border: solid #84aaff;
+    margin-top: 10px;
+    width: 95%;
+    color: #84aaff;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 #profile-body {
@@ -140,19 +154,14 @@ a {
     margin-top: 20px;
 }
 
-#profile-image-container {
-    width: 671px;
-    height: 447px;
-    border: solid 30px white;
-}
-
 #profile-image {
-    width: 671px;
+    width: 500px;
+    margin: 30px
 }
 
 #profile-para {
     font-family: baskerville;
-    width: 40%;
+    width: 300PX;
     height;
     250px;
     font-size: 25px;
@@ -186,7 +195,7 @@ a {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 375px) {
     ul {
         display: flex;
         justify-content: space-around;
@@ -201,7 +210,7 @@ a {
         justify-content: center;
         margin-top: 0px;
         width: 100%;
-        height: 700px;
+        height: 500px;
         background-repeat: no-repeat;
         background: url(Images/Nav/blueandyellowcover.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -224,7 +233,9 @@ a {
         height: 1060px;
         margin-left: 5px;
         width: 360px;
-
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
     #profile-image-container {
         width: 250px;
@@ -236,13 +247,19 @@ a {
         font-size: 15px;
     }
     #profile-image {
-        width: 250px;
-        height: 100%;
+        width: 100%;
     }
     .image-space {
     margin-top: 20px;
     width: 250px;
     height: 360px
+}
+   #profile-para {
+    font-family: baskerville;
+    width: 40%;
+    height;
+    250px;
+    font-size: 25px;
 }
     #artwork {
     margin-left: 5px;
@@ -250,7 +267,7 @@ a {
 /*    margin-left: 45px;*/
     margin-top: 10px;
     border: solid #84aaff;
-    height: 2760px;
+    height: 2790px;
     display: flex;
     /*    justify-content: center;*/
     flex-direction: column;
@@ -280,3 +297,10 @@ a {
     font-family: baskerville;
     font-size: 16px;
     align-items: center;
+    }
+
+    .thing {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
