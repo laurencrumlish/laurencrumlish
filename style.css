@@ -23,7 +23,7 @@ body {
 ul {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
     font-family: arial;
     color: #84aaff;
 }
@@ -50,6 +50,7 @@ ul {
     animation-name: fadeIn;
     animation-play-state: running;
     animation-timing-function: ease-in;
+    width: 43%;
 }
 
 li {
@@ -69,53 +70,34 @@ a {
     color: #84aaff
 }
 
-/*
-#profile {
-    margin-top: 10px;
-    width: 95%;
-    border: solid #84aaff;
-    height: 1000px;
-    display: flex;
-    font-family: arial;
-    color: #84aaff;
-    margin-right: 0px;
-    height: 1060px;
-    margin-left: 5px;
-    width: 360px;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-}
-*/
 #profile {
     border: solid #84aaff;
     margin-top: 10px;
-    width: 95%;
+/*    width: 90%;*/
     color: #84aaff;
     font-family: arial;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-}
-
-#profile-body {
-    display: flex;
-    flex-direction: row;
+    align-content: center;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 #artwork {
     margin-left: 45px;
     margin-top: 10px;
-    width: 95%;
+/*    width: 90%;*/
     border: solid #84aaff;
-    height: 5550px;
+    height: 4100px;
     display: flex;
     /*    justify-content: center;*/
     flex-direction: column;
     align-items: center;
     font-family: arial;
     color: #84aaff;
-    margin-right: 0px;
+    margin-right: 45px;
 }
 
 #artwork-body {
@@ -136,12 +118,6 @@ a {
 }
 
 #artwork-ABI {
-    /*
-    margin-left: 45px;
-    margin-top: 10px;
-*/
-    /*    width:95%;*/
-    /*    height: 3000px;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -152,48 +128,80 @@ a {
 
 .image-space {
     margin-top: 20px;
+    width: 350px;
+    height: 550px;
 }
 
+/*End of artwork content*/
+
 #profile-image {
-    width: 500px;
-    margin: 30px
+    width: 100%;
+    align-self: center;
+/*            border: solid 1px orange;*/
+
 }
+
+#profile-small {
+    display: flex;
+    flex-direction: column;
+        font-size: 15px;
+        width: 80%;
+        z-index: 2;
+align-items: center;
+  justify-content: center;
+
+}
+
+   #profile-image-container {
+        width: 45%;
+        height: 100%;
+
+
+    }
 
 #profile-para {
     font-family: baskerville;
-    width: 300PX;
+    width: 350px;
     height;
     250px;
     font-size: 25px;
-}
-
-#profile-body {
-    display: flex;
-    align-items: center;
-}
-
-#contactme {
-    margin-left: 45px;
-    margin-top: 10px;
-    width: 95%;
-    border: solid #84aaff;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: arial;
-    color: #84aaff;
-    margin-right: 0px;
+    margin: 30px;
 }
 
 #contactme-para {
     font-family: baskerville;
-    width: 40%;
-    height;
-    250px;
-    font-size: 25px;
+    font-size: 20px;
+    margin: 15px;
+    display: flex;
+    text-align: center;
 }
+
+#contactme {
+    border: solid #84aaff;
+    font-family: arial;
+    color: #84aaff;
+    margin-left: 45px;
+/*    width: 90%;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-right: 45px;
+}
+
+
+
+
+
+
+
+/*Beginning of mobile version!*/
+
+
 
 @media only screen and (max-width: 375px) {
     ul {
@@ -236,27 +244,33 @@ a {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        height: 650px;
+
     }
     #profile-image-container {
         width: 250px;
         height: 100%;
 
+
     }
-    #profile-body {
+    #profile-small {
         flex-direction: column;
         font-size: 15px;
+        width: 500px;
+        z-index: 2;
     }
     #profile-image {
         width: 100%;
+
     }
     .image-space {
     margin-top: 20px;
-    width: 250px;
-    height: 360px
+    width: 200px;
+    height: 300px
 }
    #profile-para {
     font-family: baskerville;
-    width: 40%;
+    width: 300px;
     height;
     250px;
     font-size: 25px;
@@ -267,7 +281,7 @@ a {
 /*    margin-left: 45px;*/
     margin-top: 10px;
     border: solid #84aaff;
-    height: 2790px;
+    height: 2360px;
     display: flex;
     /*    justify-content: center;*/
     flex-direction: column;
@@ -304,3 +318,8 @@ a {
         justify-content: center;
         flex-direction: column;
     }
+
+    #headerlogo {
+        width: 90%
+    }
+/*hi*/
